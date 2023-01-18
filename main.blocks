@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="bs3Z!-sMi-fU,~ez4MJn">JOGO</variable></variables><block type="device_gesture_event" id="!;oT=+{*g$0D3,h-v-lW" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id=":nJs0ymrfFwM?7v/9}9k"><field name="VAR" id="bs3Z!-sMi-fU,~ez4MJn">JOGO</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="-Q52Cu${0:ogxxYRF:Cc"><value name="min"><shadow type="math_number" id="r7wb3WjviB[QtC;;@}LT"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="QpM@s}G0E58{P$[x_sV3"><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="60[9L!s^j(.{Y~K{e%|+"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="]sOnNpR}3LJ`%f#@b`}a"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id=".,;}eaDtJ1.KCUK368Nc"><field name="VAR" id="bs3Z!-sMi-fU,~ez4MJn">JOGO</field></block></value><value name="B"><shadow type="math_number" id="?N#6gh4%$}3ntx|L9(,/"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_play_note" id="!cg3KR[As6:p?6*XQ1#:"><value name="note"><shadow type="device_note" id="ND-1~It/hM~@C(CnWtH7"><field name="name">698</field></shadow></value><value name="duration"><shadow type="device_beat" id="`~D).~nw!]dmd~+InPCN"><field name="fraction">BeatFraction.Whole</field></shadow></value><next><block type="device_show_leds" id="]?6wcEb7ynLrd]82bjru"><field name="LEDS">`
+        # # . . # 
+        # # . # . 
+        . . # # . 
+        # # . # . 
+        # # . . #
+        `</field></block></next></block></statement><value name="IF1"><block type="logic_compare" id="C1.Jvl[v(b^loWW{G$u*"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="acMdE4)e1(K/I.2?Y@nk"><field name="VAR" id="bs3Z!-sMi-fU,~ez4MJn">JOGO</field></block></value><value name="B"><shadow type="math_number" id="{.?wUop^]J0P-QYJXmxe"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_play_note" id="uIoL}Oz_2=%IQe6X$9p:"><value name="note"><shadow type="device_note" id="}#8jLDhD)@|dAxzyE7t!"><field name="name">220</field></shadow></value><value name="duration"><shadow type="device_beat" id="dAiO.WLmg$g+;ikLV:_j"><field name="fraction">BeatFraction.Whole</field></shadow></value><next><block type="device_show_leds" id="#T%d]M*[{%Q6/=w]wG!J"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></next></block></statement><statement name="ELSE"><block type="device_play_note" id="fe)wxC9/CoKJVOa%E77g"><value name="note"><shadow type="device_note" id="3Bd*AA2*`*UkONOO}(],"><field name="name">262</field></shadow></value><value name="duration"><shadow type="device_beat" id="I?K3iUzUlFZ}M7k{2[5P"><field name="fraction">BeatFraction.Whole</field></shadow></value><next><block type="device_show_leds" id="_[yvXJzqP)$VKkvbA`?H"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        . # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></next></block></statement></block></next></block></statement></block></xml>
